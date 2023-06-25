@@ -1,0 +1,60 @@
+body{
+  background: #262626;
+  padding-left: 45%;
+  padding-top: 20%;
+}
+.circle {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  border-radius: 25px;
+}
+#ball-1{
+  background-color: rgb(255, 0, 0);
+  -webkit-animation-name: bounce;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-duration: 1.2s;
+  -webkit-animation-iteration-count: infinite;
+}
+#ball-2{
+  background-color: orange;
+  -webkit-animation-name: bounce;
+  -webkit-animation-delay: 1.1s;
+  -webkit-animation-duration: 1.2s;
+  -webkit-animation-iteration-count: infinite;
+}
+#ball-3{
+  background-color: yellow;
+  -webkit-animation-name: bounce;
+  -webkit-animation-delay: 1.2s;
+  -webkit-animation-duration: 1.2s;
+  -webkit-animation-iteration-count: infinite;
+}
+#ball-4{
+  background-color: lightgreen;
+  -webkit-animation-name: bounce;
+  -webkit-animation-delay: 1.3s;
+  -webkit-animation-duration: 1.2s;
+  -webkit-animation-iteration-count: infinite;
+}
+#ball-5{
+  background-color: green;
+  -webkit-animation-name: bounce;
+  -webkit-animation-delay: 1.4s;
+  -webkit-animation-duration: 1.2s;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(23px);
+  }
+  60% {
+    transform: translateY(-25px);
+  }
+  80%{
+    transform: translateY(0);
+  }
+}
